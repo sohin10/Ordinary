@@ -12,19 +12,20 @@
 
     <nav class="navbar">
         <a id="logo" href="index.html"> O.</a>
-        <!-- <ul>
-            <li><a href="#"> Home </a></li>
-            <li><a href="#"> Products </a></li>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="product_page.html"> Products </a></li>
             <li><a href="#"> About </a></li>
             <li><a href="#"> Contact </a></li>
-        </ul> -->
+        </ul>
     </nav>
 
+    
 
-    <section>
-        <!-- <h2>Our Products</h2> -->
-        <!-- <img src="background.png"> -->
-    </section>
+   
+
+
+   
     
 <!-- old images  -->
     <!-- <section class="product">
@@ -43,33 +44,40 @@
         <button> <a id="buy" href="#"> ADD TO CART</a></button>
     </section> -->
 
+    
+
 
 
 
     <div class="flex-box">
+
+    
+    
         <div class="left">
             <div class="big-img">
                 <img src="p1.jpg">
             </div>
             <div class="images">
                 <div class="small-img">
-                    <img src="p1.jpg" onclick="showImg(this.src)">
+                    <img src="p1.jpg" onclick="showImg(this.src); background1(); Glycolic()">
+                    
                 </div>
                 <div class="small-img">
-                    <img src="p2.jpg" onclick="showImg(this.src)">
+                    <img src="p2.jpg" onclick="showImg(this.src); background2(); Niacinamide()">
                 </div>
                 <div class="small-img">
-                    <img src="p3.jpg" onclick="showImg(this.src)">
+                    <img src="p3.jpg" onclick="showImg(this.src);background3(); Salicylic()">
                 </div>
                 <div class="small-img">
-                    <img src="p4.jpg" onclick="showImg(this.src)">
+                    <img src="p4.jpg" onclick="showImg(this.src); background4(); Hyaluronic()">
                 </div>
             </div>
+            
         </div>
 
         <div class="right">
             <div class="url">Home > Product > Serum </div>
-            <div class="pname">Naicinamide </div>
+            <div id="zn" class="pname"> Glycolic Acid </div>
             <!-- <div class="ratings">
                 <i class="fa-regular fa-star"></i>
                 <i class="fa-regular fa-star"></i>
@@ -77,7 +85,12 @@
                 <i class="fa-regular fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div> -->
-            <div class="price"> $35</div>
+            
+            <div id="money" class="price"> PRICE: $35</div>
+            <div class="des"> Description</div>
+            <div id="cription" class="description"> Glycolic Acid 7% Toning Solution is an exfoliant targeted at the surface of the skin. It helps improve skin clarity, balance uneven skin tone, and correct texture over time. This formula contains a Tasmanian Pepperberry derivative of plant origin which varies in colour seasonally and this colour variation may be apparent in the formula from time to time. 
+
+               </div>
             <div class="quantity">
                 <p>Quantity : </p>
                 <input type="number" min="1" max="5" value="1">
@@ -89,6 +102,22 @@
 
         </div>
     </div>
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 

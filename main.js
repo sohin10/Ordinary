@@ -7,8 +7,9 @@ const text = intro.querySelector("h1");
 // const ordinary = document.querySelector(".ordinary");
 const text2 = intro.querySelector("h2");
 
-
-
+//Intro Product button
+const Explore = document.querySelector(".explore");
+const ExBtn = document.querySelector("a");
 
 //Product Section
 // const section = document.querySelector("section");
@@ -20,7 +21,7 @@ const controller = new ScrollMagic.Controller();
 
 //scenes
 const scene = new ScrollMagic.Scene({
-    duration: 24000,
+    duration: 20000,
     triggerElement: intro,
     triggerHook:0
 })
@@ -42,7 +43,7 @@ scene.on("update", e => {
 
 setInterval(() => {
     delay += (scrollpos - delay) * accelamount;
-    console.log(scrollpos, delay);
+    // console.log(scrollpos, delay);
 
     video.currentTime =  scrollpos;
 }, 33.3);
@@ -75,6 +76,23 @@ let scene3 = new ScrollMagic.Scene({
 })
 .setTween(ordinaryAnimation)
 .addTo(controller);
+
+
+
+
+//button animation
+const BtnAnimation = TweenMax.fromTo(ExBtn);
+
+
+//intro button
+let scene4 = new ScrollMagic.Scene({
+    // duration: 20,
+    triggerElement: Explore,
+    triggerHook:1
+})
+.setTween(BtnAnimation)
+.addTo(controller);
+
 
 
 
