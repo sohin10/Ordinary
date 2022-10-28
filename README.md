@@ -121,7 +121,8 @@ Finally, I modified the navigation bar and added additional links since it seeme
 In conclusion, I acquired some new approaches while completing my project to make the website more interactive and visually appealing. I learnt how to embed many functions and call them simultaneously with a single button press. I learnt how to animate a button as well. When I attempted to alter the text using innerHTML, the whole layout of the product page was screwed up, and the background does not change simultaneously with the image. I persisted in working through my issues, reviewing and changing my code, and commenting things out until I eventually got everything to function flawlessly!
 
 
-## FINAL WEBSITE DESIGN
+## FINAL WEBSITE LINK
+https://sohin10.github.io/Ordinary/
 
 
 
